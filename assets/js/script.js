@@ -51,7 +51,6 @@ const current_time = () => {
         let lyric_replace = lyrics[i].data[j].lyric.split("");
         for (let l = 0; l <= lyric_replace.length; l++) {
           //process sub element the song changed color
-          console.log(lyric_replace.length);
           if (
             lyric_replace.length === l &&
             audio.currentTime.toFixed(3) >=
