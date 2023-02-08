@@ -1,8 +1,7 @@
-const lyric =
-[
+const lyrics = [
   {
-    subject: "37.939",
-    k: [
+    timeEnd: "37.939",
+    data : [
       {
         times: "35.144",
         lyric: "Hồn",
@@ -34,8 +33,8 @@ const lyric =
     ],
   },
   {
-    subject: "45.488",
-    k: [
+    timeEnd: "45.488",
+    data : [
       {
         times: "42.641",
         lyric: "Chiều",
@@ -67,8 +66,8 @@ const lyric =
     ],
   },
   {
-    subject: "52.097",
-    k: [
+    timeEnd: "52.097",
+    data : [
       {
         times: "49.276",
         lyric: "Thầm",
@@ -100,8 +99,8 @@ const lyric =
     ],
   },
   {
-    subject: "55.415",
-    k: [
+    timeEnd: "55.415",
+    data : [
       {
         times: "53.325",
         lyric: "Khép",
@@ -125,8 +124,8 @@ const lyric =
     ],
   },
   {
-    subject: "58.940998",
-    k: [
+    timeEnd: "58.940998",
+    data : [
       {
         times: "56.669",
         lyric: "Đường",
@@ -154,8 +153,8 @@ const lyric =
     ],
   },
   {
-    subject: "65.289",
-    k: [
+    timeEnd: "65.289",
+    data : [
       {
         times: "62.572",
         lyric: "Đời",
@@ -187,8 +186,8 @@ const lyric =
     ],
   },
   {
-    subject: "72.133",
-    k: [
+    timeEnd: "72.133",
+    data : [
       {
         times: "69.26",
         lyric: "Trời",
@@ -220,8 +219,8 @@ const lyric =
     ],
   },
   {
-    subject: "78.768005",
-    k: [
+    timeEnd: "78.768005",
+    data : [
       {
         times: "75.973",
         lyric: "Lầu",
@@ -253,8 +252,8 @@ const lyric =
     ],
   },
   {
-    subject: "82.269005",
-    k: [
+    timeEnd: "82.269005",
+    data : [
       {
         times: "80.100006",
         lyric: "Gác",
@@ -278,8 +277,8 @@ const lyric =
     ],
   },
   {
-    subject: "85.769005",
-    k: [
+    timeEnd: "85.769005",
+    data : [
       {
         times: "83.444",
         lyric: "Thì",
@@ -307,8 +306,8 @@ const lyric =
     ],
   },
   {
-    subject: "98.935005",
-    k: [
+    timeEnd: "98.935005",
+    data : [
       {
         times: "91.411",
         lyric: "Bên",
@@ -360,8 +359,8 @@ const lyric =
     ],
   },
   {
-    subject: "108.913",
-    k: [
+    timeEnd: "108.913",
+    data : [
       {
         times: "101.233",
         lyric: "Ngày",
@@ -413,8 +412,8 @@ const lyric =
     ],
   },
   {
-    subject: "114.922005",
-    k: [
+    timeEnd: "114.922005",
+    data : [
       {
         times: "110.455",
         lyric: "Lặng",
@@ -450,8 +449,8 @@ const lyric =
     ],
   },
   {
-    subject: "118.579",
-    k: [
+    timeEnd: "118.579",
+    data : [
       {
         times: "115.496",
         lyric: "Đường",
@@ -483,8 +482,8 @@ const lyric =
     ],
   },
   {
-    subject: "125.449005",
-    k: [
+    timeEnd: "125.449005",
+    data : [
       {
         times: "122.628006",
         lyric: "Về",
@@ -516,8 +515,8 @@ const lyric =
     ],
   },
   {
-    subject: "132.18901",
-    k: [
+    timeEnd: "132.18901",
+    data : [
       {
         times: "129.263",
         lyric: "Lầu",
@@ -549,8 +548,8 @@ const lyric =
     ],
   },
   {
-    subject: "139.58101",
-    k: [
+    timeEnd: "139.58101",
+    data : [
       {
         times: "133.46901",
         lyric: "Nhớ",
@@ -598,8 +597,8 @@ const lyric =
     ],
   },
   {
-    subject: "175.552",
-    k: [
+    timeEnd: "175.552",
+    data : [
       {
         times: "168.10701",
         lyric: "Bên",
@@ -651,8 +650,8 @@ const lyric =
     ],
   },
   {
-    subject: "185.531",
-    k: [
+    timeEnd: "185.531",
+    data : [
       {
         times: "177.981",
         lyric: "Ngày",
@@ -704,8 +703,8 @@ const lyric =
     ],
   },
   {
-    subject: "191.878",
-    k: [
+    timeEnd: "191.878",
+    data : [
       {
         times: "187.15001",
         lyric: "Lặng",
@@ -741,8 +740,8 @@ const lyric =
     ],
   },
   {
-    subject: "195.536",
-    k: [
+    timeEnd: "195.536",
+    data : [
       {
         times: "192.479",
         lyric: "Đường",
@@ -774,8 +773,8 @@ const lyric =
     ],
   },
   {
-    subject: "202.144",
-    k: [
+    timeEnd: "202.144",
+    data : [
       {
         times: "199.271",
         lyric: "Về",
@@ -807,8 +806,8 @@ const lyric =
     ],
   },
   {
-    subject: "208.806",
-    k: [
+    timeEnd: "208.806",
+    data : [
       {
         times: "205.932",
         lyric: "Lầu",
@@ -840,8 +839,8 @@ const lyric =
     ],
   },
   {
-    subject: "215.83301",
-    k: [
+    timeEnd: "215.83301",
+    data : [
       {
         times: "210.033",
         lyric: "Nhớ",
@@ -889,8 +888,8 @@ const lyric =
     ],
   },
   {
-    subject: "222.233",
-    k: [
+    timeEnd: "222.233",
+    data : [
       {
         times: "219.307",
         lyric: "Lầu",
@@ -922,8 +921,8 @@ const lyric =
     ],
   },
   {
-    subject: "236.522",
-    k: [
+    timeEnd: "236.522",
+    data : [
       {
         times: "223.513",
         lyric: "Nhớ",

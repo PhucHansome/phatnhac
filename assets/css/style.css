@@ -1,4 +1,11 @@
 .background {
-    background: linear-gradient(to right, rgb(42, 181, 209), rgb(120, 17, 25));
+    background: linear-gradient(to right, rgb(56, 135, 151), rgb(231, 9, 27));
     border-radius: 50px;
+}
+
+.button_pause{
+    border-radius: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: rgb(240, 233, 233);
 }
