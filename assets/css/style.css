@@ -1,5 +1,4 @@
 .background {
-<<<<<<< HEAD
   background: linear-gradient(to right, rgb(56, 135, 151), rgb(116, 5, 14));
   border-radius: 50px;
   width: 400px;
@@ -30,15 +29,3 @@ audio{
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
-=======
-    background: linear-gradient(to right, rgb(56, 135, 151), rgb(231, 9, 27));
-    border-radius: 50px;
-}
-
-.button_pause{
-    border-radius: 100%;
-    padding-left: 2px;
-    padding-right: 2px;
-    background-color: rgb(240, 233, 233);
-}
->>>>>>> 2ff6cca6603facd58cc09575cc30ae1c388f8f9f
