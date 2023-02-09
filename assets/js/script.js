@@ -53,6 +53,7 @@ const current_time = () => {
           ${lyrics[i + 1].data[j].lyric}
         </span> `;
         $(".lyric_print_pre").append(str1); //append each element the song
+
         let lyric_replace = lyrics[i].data[j].lyric.split("");
         for (let l = 0; l <= lyric_replace.length; l++) {
           //process sub element the song changed color
@@ -84,6 +85,7 @@ const current_time = () => {
   }
 };
 //event mouseleave
+
 $(".background").on("mouseleave", () => {
   setTimeout(function () {
     $("#audio").addClass("d-none");
