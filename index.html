@@ -16,26 +16,33 @@
     />
   </head>
   <body>
-    <div class="row">
-      <div class="col-3"></div>
-      <div class="col-6">
-        <div class="row background">
-          <div class="col-12 text-center align-middle mt-5 mb-5">
-            <div class="button_play_pause">
-              <button class="button_play" id="play">
-                <i class="fa fa-play-circle fa-5x"></i>
-              </button>
+    <div class="container">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 background">
+          <div class="row">
+            <div class="col-12 text-center align-middle mt-5 mb-5">
+              <div class="button_play_pause">
+                <button class="button_pause" id="play">
+                  <i class="fa fa-play-circle fa-5x"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 text-center mt-2 ">
+              <p class="lyric_print"></p>
+            </div>
+            <div class="col-12 text-center mt-2 mb-5">
+              <p class="lyric_print_pre"></p>
+            </div>
+            <div class="col-12 text-center">
+              <audio id="audio" controls>
+                <source src="./assets/public/mp3/beat.mp3" type="audio/mpeg" />
+              </audio>
             </div>
           </div>
-          <div class="col-12 text-center mt-2 mb-5 "><p class="lyric_print"></p></div>
-          <div class="col-12 text-center">
-            <audio id="audio" controls>
-              <source src="./assets/public/mp3/beat.mp3" type="audio/mpeg" />
-            </audio>
-          </div>
         </div>
+        <div class="col-3"></div>
       </div>
-      <div class="col-3"></div>
     </div>
   </body>
   <script

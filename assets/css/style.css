@@ -1,4 +1,31 @@
 .background {
-    background: linear-gradient(to right, rgb(42, 181, 209), rgb(120, 17, 25));
-    border-radius: 50px;
+  background: linear-gradient(to right, rgb(56, 135, 151), rgb(116, 5, 14));
+  border-radius: 50px;
+  width: 400px;
+  height: 400px;
+}
+
+.button_pause {
+  border-radius: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: rgb(240, 233, 233);
+}
+
+audio{
+    width: 264px;
+    height: 30px;
+    margin: 10px 10px 10px -9px;
+}
+
+.changed-color {
+
+    color: red;
+    font-weight: bold;
+}
+
+.after-changed-color {
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
